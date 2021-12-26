@@ -1,0 +1,16 @@
+C:\Users\WINSSD\source\repos\Medical_Clinic\Mc.Data\bin\Debug\netcoreapp3.1\Mc.Data.deps.json
+C:\Users\WINSSD\source\repos\Medical_Clinic\Mc.Data\bin\Debug\netcoreapp3.1\Mc.Data.dll
+C:\Users\WINSSD\source\repos\Medical_Clinic\Mc.Data\bin\Debug\netcoreapp3.1\Mc.Data.pdb
+C:\Users\WINSSD\source\repos\Medical_Clinic\Mc.Data\obj\Debug\netcoreapp3.1\Mc.Data.csproj.AssemblyReference.cache
+C:\Users\WINSSD\source\repos\Medical_Clinic\Mc.Data\obj\Debug\netcoreapp3.1\Mc.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WINSSD\source\repos\Medical_Clinic\Mc.Data\obj\Debug\netcoreapp3.1\Mc.Data.AssemblyInfoInputs.cache
+C:\Users\WINSSD\source\repos\Medical_Clinic\Mc.Data\obj\Debug\netcoreapp3.1\Mc.Data.AssemblyInfo.cs
+C:\Users\WINSSD\source\repos\Medical_Clinic\Mc.Data\obj\Debug\netcoreapp3.1\Mc.Data.csproj.CoreCompileInputs.cache
+C:\Users\WINSSD\source\repos\Medical_Clinic\Mc.Data\obj\Debug\netcoreapp3.1\Mc.Data.dll
+C:\Users\WINSSD\source\repos\Medical_Clinic\Mc.Data\obj\Debug\netcoreapp3.1\Mc.Data.pdb
+C:\Users\WINSSD\source\repos\Medical_Clinic\Mc.Data\bin\Debug\netcoreapp3.1\Mc.Data.runtimeconfig.json
+C:\Users\WINSSD\source\repos\Medical_Clinic\Mc.Data\bin\Debug\netcoreapp3.1\Mc.Data.runtimeconfig.dev.json
+C:\Users\WINSSD\source\repos\Medical_Clinic\Mc.Data\bin\Debug\netcoreapp3.1\Mc.Core.dll
+C:\Users\WINSSD\source\repos\Medical_Clinic\Mc.Data\bin\Debug\netcoreapp3.1\Mc.Core.pdb
+C:\Users\WINSSD\source\repos\Medical_Clinic\Mc.Data\obj\Debug\netcoreapp3.1\Mc.Data.csproj.CopyComplete
+C:\Users\WINSSD\source\repos\Medical_Clinic\Mc.Data\obj\Debug\netcoreapp3.1\Mc.Data.genruntimeconfig.cache

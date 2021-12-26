@@ -1,0 +1,10 @@
+C:\Users\WINSSD\source\repos\Medical_Clinic\Mc.Manager\bin\Debug\netcoreapp3.1\Mc.Manager.deps.json
+C:\Users\WINSSD\source\repos\Medical_Clinic\Mc.Manager\bin\Debug\netcoreapp3.1\Mc.Manager.dll
+C:\Users\WINSSD\source\repos\Medical_Clinic\Mc.Manager\bin\Debug\netcoreapp3.1\Mc.Manager.pdb
+C:\Users\WINSSD\source\repos\Medical_Clinic\Mc.Manager\obj\Debug\netcoreapp3.1\Mc.Manager.csproj.AssemblyReference.cache
+C:\Users\WINSSD\source\repos\Medical_Clinic\Mc.Manager\obj\Debug\netcoreapp3.1\Mc.Manager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WINSSD\source\repos\Medical_Clinic\Mc.Manager\obj\Debug\netcoreapp3.1\Mc.Manager.AssemblyInfoInputs.cache
+C:\Users\WINSSD\source\repos\Medical_Clinic\Mc.Manager\obj\Debug\netcoreapp3.1\Mc.Manager.AssemblyInfo.cs
+C:\Users\WINSSD\source\repos\Medical_Clinic\Mc.Manager\obj\Debug\netcoreapp3.1\Mc.Manager.csproj.CoreCompileInputs.cache
+C:\Users\WINSSD\source\repos\Medical_Clinic\Mc.Manager\obj\Debug\netcoreapp3.1\Mc.Manager.dll
+C:\Users\WINSSD\source\repos\Medical_Clinic\Mc.Manager\obj\Debug\netcoreapp3.1\Mc.Manager.pdb

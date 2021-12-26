@@ -46,3 +46,5 @@ C:\Users\WINSSD\source\repos\Medical_Clinic\CL.WebApi\bin\Debug\netcoreapp3.1\Sy
 C:\Users\WINSSD\source\repos\Medical_Clinic\CL.WebApi\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
 C:\Users\WINSSD\source\repos\Medical_Clinic\CL.WebApi\bin\Debug\netcoreapp3.1\Mc.Data.dll
 C:\Users\WINSSD\source\repos\Medical_Clinic\CL.WebApi\bin\Debug\netcoreapp3.1\Mc.Data.pdb
+C:\Users\WINSSD\source\repos\Medical_Clinic\CL.WebApi\bin\Debug\netcoreapp3.1\Mc.Manager.dll
+C:\Users\WINSSD\source\repos\Medical_Clinic\CL.WebApi\bin\Debug\netcoreapp3.1\Mc.Manager.pdb

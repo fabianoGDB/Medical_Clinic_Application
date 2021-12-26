@@ -366,6 +366,7 @@
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "Mc.Core": "1.0.0",
+          "Mc.Manager": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.0",
           "Npgsql": "5.0.0",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "5.0.0"
@@ -375,6 +376,19 @@
         },
         "runtime": {
           "bin/placeholder/Mc.Data.dll": {}
+        }
+      },
+      "Mc.Manager/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Mc.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Mc.Manager.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mc.Manager.dll": {}
         }
       }
     }
@@ -1147,6 +1161,11 @@
       "type": "project",
       "path": "../Mc.Data/Mc.Data.csproj",
       "msbuildProject": "../Mc.Data/Mc.Data.csproj"
+    },
+    "Mc.Manager/1.0.0": {
+      "type": "project",
+      "path": "../Mc.Manager/Mc.Manager.csproj",
+      "msbuildProject": "../Mc.Manager/Mc.Manager.csproj"
     }
   },
   "projectFileDependencyGroups": {

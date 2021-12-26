@@ -279,6 +279,19 @@
         "runtime": {
           "bin/placeholder/Mc.Core.dll": {}
         }
+      },
+      "Mc.Manager/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Mc.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Mc.Manager.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mc.Manager.dll": {}
+        }
       }
     }
   },
@@ -859,11 +872,17 @@
       "type": "project",
       "path": "../Mc.Core/Mc.Core.csproj",
       "msbuildProject": "../Mc.Core/Mc.Core.csproj"
+    },
+    "Mc.Manager/1.0.0": {
+      "type": "project",
+      "path": "../Mc.Manager/Mc.Manager.csproj",
+      "msbuildProject": "../Mc.Manager/Mc.Manager.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Mc.Core >= 1.0.0",
+      "Mc.Manager >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.0",
@@ -909,6 +928,9 @@
           "projectReferences": {
             "C:\\Users\\WINSSD\\source\\repos\\Medical_Clinic\\Mc.Core\\Mc.Core.csproj": {
               "projectPath": "C:\\Users\\WINSSD\\source\\repos\\Medical_Clinic\\Mc.Core\\Mc.Core.csproj"
+            },
+            "C:\\Users\\WINSSD\\source\\repos\\Medical_Clinic\\Mc.Manager\\Mc.Manager.csproj": {
+              "projectPath": "C:\\Users\\WINSSD\\source\\repos\\Medical_Clinic\\Mc.Manager\\Mc.Manager.csproj"
             }
           }
         }

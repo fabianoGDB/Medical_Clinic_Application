@@ -8,3 +8,6 @@ C:\Users\WINSSD\source\repos\Medical_Clinic\Mc.Manager\obj\Debug\netcoreapp3.1\M
 C:\Users\WINSSD\source\repos\Medical_Clinic\Mc.Manager\obj\Debug\netcoreapp3.1\Mc.Manager.csproj.CoreCompileInputs.cache
 C:\Users\WINSSD\source\repos\Medical_Clinic\Mc.Manager\obj\Debug\netcoreapp3.1\Mc.Manager.dll
 C:\Users\WINSSD\source\repos\Medical_Clinic\Mc.Manager\obj\Debug\netcoreapp3.1\Mc.Manager.pdb
+C:\Users\WINSSD\source\repos\Medical_Clinic\Mc.Manager\bin\Debug\netcoreapp3.1\Mc.Core.dll
+C:\Users\WINSSD\source\repos\Medical_Clinic\Mc.Manager\bin\Debug\netcoreapp3.1\Mc.Core.pdb
+C:\Users\WINSSD\source\repos\Medical_Clinic\Mc.Manager\obj\Debug\netcoreapp3.1\Mc.Manager.csproj.CopyComplete

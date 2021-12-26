@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Mc.Core.Domain;
+using Mc.Manager.Interfaces;
 
 namespace Mc.WebApi.Controllers
 {
@@ -12,21 +13,21 @@ namespace Mc.WebApi.Controllers
     [ApiController]
     public class ClientsController : ControllerBase
     {
+        private readonly IClientManager clientManager;
+        public ClientsController(IClientManager clientManager)
+        {
+            this.clientManager = clientManager;
+        }
         // GET: ClientController
         [HttpGet]
-        public IActionResult Get()
+        public async Task<IActionResult> Get()
         {
-            return Ok(new List<Client>(){
-                new Client { Id = 1, Name = "Robinso", BirthDate = new DateTime(1990, 01, 01) },
-
-                new Client { Id = 1, Name = "Robinso", BirthDate = new DateTime(1990, 01, 01)
-                }
-            });
+            return Ok(await clientManager.GetClientsAsync());
         }
         [HttpGet("{id}")]
-        public string Get(int id)
+        public async Task<IActionResult> Get(int id)
         {
-            return "values";
+            return Ok(await clientManager.GetClientAsync(id));
         }
         [HttpPost]
         public void Post([FromBody] string value)

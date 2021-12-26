@@ -1,18 +1,14 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.OpenApi.Models;
 using Mc.Data.Context;
 using Microsoft.EntityFrameworkCore;
+using Mc.Data.Repository;
+using Mc.Manager.Interfaces;
+using Mc.Manager.Implementation;
 
 namespace CL.WebApi
 {
@@ -31,6 +27,9 @@ namespace CL.WebApi
             services.AddControllers();
 
             services.AddDbContext<MCContext>(options => options.UseNpgsql(Configuration.GetConnectionString("MCConnection")));
+
+            services.AddScoped<IClientRepository, ClientRepository>();
+            services.AddScoped<IClientManager, ClientManager>();
 
             services.AddSwaggerGen(c =>
             {

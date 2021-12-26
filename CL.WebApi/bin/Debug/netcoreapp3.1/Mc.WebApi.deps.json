@@ -655,6 +655,7 @@
       "Mc.Data/1.0.0": {
         "dependencies": {
           "Mc.Core": "1.0.0",
+          "Mc.Manager": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.0",
           "Npgsql": "5.0.0",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "5.0.0"
@@ -664,6 +665,17 @@
         },
         "compile": {
           "Mc.Data.dll": {}
+        }
+      },
+      "Mc.Manager/1.0.0": {
+        "dependencies": {
+          "Mc.Core": "1.0.0"
+        },
+        "runtime": {
+          "Mc.Manager.dll": {}
+        },
+        "compile": {
+          "Mc.Manager.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -2510,6 +2522,11 @@
       "sha512": ""
     },
     "Mc.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mc.Manager/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

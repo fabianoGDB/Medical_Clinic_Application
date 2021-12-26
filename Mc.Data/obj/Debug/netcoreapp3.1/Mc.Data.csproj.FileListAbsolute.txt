@@ -14,3 +14,5 @@ C:\Users\WINSSD\source\repos\Medical_Clinic\Mc.Data\bin\Debug\netcoreapp3.1\Mc.C
 C:\Users\WINSSD\source\repos\Medical_Clinic\Mc.Data\bin\Debug\netcoreapp3.1\Mc.Core.pdb
 C:\Users\WINSSD\source\repos\Medical_Clinic\Mc.Data\obj\Debug\netcoreapp3.1\Mc.Data.csproj.CopyComplete
 C:\Users\WINSSD\source\repos\Medical_Clinic\Mc.Data\obj\Debug\netcoreapp3.1\Mc.Data.genruntimeconfig.cache
+C:\Users\WINSSD\source\repos\Medical_Clinic\Mc.Data\bin\Debug\netcoreapp3.1\Mc.Manager.dll
+C:\Users\WINSSD\source\repos\Medical_Clinic\Mc.Data\bin\Debug\netcoreapp3.1\Mc.Manager.pdb

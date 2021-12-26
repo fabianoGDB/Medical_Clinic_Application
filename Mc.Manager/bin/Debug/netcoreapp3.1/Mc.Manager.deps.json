@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v3.1": {
       "Mc.Manager/1.0.0": {
+        "dependencies": {
+          "Mc.Core": "1.0.0"
+        },
         "runtime": {
           "Mc.Manager.dll": {}
+        }
+      },
+      "Mc.Core/1.0.0": {
+        "runtime": {
+          "Mc.Core.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Mc.Manager/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mc.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

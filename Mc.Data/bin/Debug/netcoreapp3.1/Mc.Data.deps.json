@@ -9,6 +9,7 @@
       "Mc.Data/1.0.0": {
         "dependencies": {
           "Mc.Core": "1.0.0",
+          "Mc.Manager": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.0",
           "Microsoft.EntityFrameworkCore.Design": "5.0.0",
           "Microsoft.EntityFrameworkCore.Tools": "5.0.0",
@@ -238,6 +239,14 @@
         "runtime": {
           "Mc.Core.dll": {}
         }
+      },
+      "Mc.Manager/1.0.0": {
+        "dependencies": {
+          "Mc.Core": "1.0.0"
+        },
+        "runtime": {
+          "Mc.Manager.dll": {}
+        }
       }
     }
   },
@@ -409,6 +418,11 @@
       "hashPath": "system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512"
     },
     "Mc.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mc.Manager/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -10,6 +10,9 @@ namespace Mc.Manager.Interfaces
     public interface IClientManager
     {
         Task<IEnumerable<Client>> GetClientsAsync();
+        Task<Client> InsertClientAsync(Client client);
+        Task<Client> UpdateClientAsync(Client client);
         Task<Client> GetClientAsync(int id);
+        Task DeleteClientAsync(int id);
     }
 }

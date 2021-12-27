@@ -22,6 +22,7 @@ namespace Mc.Data.Repository
             this.context = context;
         }
 
+        // SELECT
         // metodo para retorno de clientes
         public async Task<IEnumerable<Client>> GetClientsAsync()
         {
@@ -30,6 +31,41 @@ namespace Mc.Data.Repository
         public async Task<Client> GetClientAsync(int id)
         {
             return await context.Clients.AsNoTracking().FirstOrDefaultAsync(c => c.Id == id);
+        }
+        
+        
+        // INSERT
+        public async Task<Client> InsertClientAsync(Client client)
+        {
+            await context.Clients.AddAsync(client);
+            await context.SaveChangesAsync();
+            return client;
+        }
+
+        public async Task DeletClientAsync(int id)
+        {
+            var clientExistis = await context.Clients.FindAsync(id);
+            if(clientExistis != null)
+            {
+                context.Clients.Remove(clientExistis);
+                await context.SaveChangesAsync();
+            }
+        }
+
+        public async Task<Client> UpdateClientAsync(Client client)
+        {
+            var clientExistis = await context.Clients.FindAsync(client.Id);
+            if (clientExistis == null)
+            {
+                return null;
+            }
+            //clientExistis.Name = client.Name;
+            //clientExistis.BirthDate = client.BirthDate;
+
+            context.Entry(clientExistis).CurrentValues.SetValues(client);
+            context.Clients.Update(clientExistis);
+            await context.SaveChangesAsync();
+            return clientExistis;
         }
     }
 }

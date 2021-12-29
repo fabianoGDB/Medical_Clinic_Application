@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "UdeKkGyI3Ao16Dbq/EXulwI0M84Xy3kMerbJbe2Be4ozMzMT6ZMBVZoMsSU/w3CFM3cl+DMsaoMaTecbXl98tQ==",
+  "dgSpecHash": "qFJ80QBuNPg1cn6DJemPb2rL0OLmDzFuhHIH/EHQ/722XCFHQ8ATjeCtSoNBHaGnGnnzaqX3e/0QfF0CkbYoWw==",
   "success": true,
   "projectFilePath": "C:\\Users\\WINSSD\\source\\repos\\Medical_Clinic\\Mc.Data\\Mc.Data.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\WINSSD\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",
+    "C:\\Users\\WINSSD\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.3.6\\fluentvalidation.aspnetcore.10.3.6.nupkg.sha512",
+    "C:\\Users\\WINSSD\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.3.6\\fluentvalidation.dependencyinjectionextensions.10.3.6.nupkg.sha512",
     "C:\\Users\\WINSSD\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\WINSSD\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\WINSSD\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.0\\microsoft.entityframeworkcore.5.0.0.nupkg.sha512",

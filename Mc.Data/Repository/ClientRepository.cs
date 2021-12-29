@@ -30,7 +30,7 @@ namespace Mc.Data.Repository
         }
         public async Task<Client> GetClientAsync(int id)
         {
-            return await context.Clients.AsNoTracking().FirstOrDefaultAsync(c => c.Id == id);
+            return await context.Clients.FindAsync(id);
         }
         
         

@@ -48,3 +48,6 @@ C:\Users\WINSSD\source\repos\Medical_Clinic\CL.WebApi\bin\Debug\netcoreapp3.1\Mc
 C:\Users\WINSSD\source\repos\Medical_Clinic\CL.WebApi\bin\Debug\netcoreapp3.1\Mc.Data.pdb
 C:\Users\WINSSD\source\repos\Medical_Clinic\CL.WebApi\bin\Debug\netcoreapp3.1\Mc.Manager.dll
 C:\Users\WINSSD\source\repos\Medical_Clinic\CL.WebApi\bin\Debug\netcoreapp3.1\Mc.Manager.pdb
+C:\Users\WINSSD\source\repos\Medical_Clinic\CL.WebApi\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Users\WINSSD\source\repos\Medical_Clinic\CL.WebApi\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
+C:\Users\WINSSD\source\repos\Medical_Clinic\CL.WebApi\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll

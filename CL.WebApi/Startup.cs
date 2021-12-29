@@ -9,6 +9,9 @@ using Microsoft.EntityFrameworkCore;
 using Mc.Data.Repository;
 using Mc.Manager.Interfaces;
 using Mc.Manager.Implementation;
+using FluentValidation.AspNetCore;
+using Mc.Manager.Validator;
+using System.Globalization;
 
 namespace CL.WebApi
 {
@@ -24,7 +27,11 @@ namespace CL.WebApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
+            services.AddControllers()
+                .AddFluentValidation(p => {
+                    p.RegisterValidatorsFromAssemblyContaining<ClientValidator>();
+                    p.ValidatorOptions.LanguageManager.Culture = new CultureInfo("pt-BR");
+                    });
 
             services.AddDbContext<MCContext>(options => options.UseNpgsql(Configuration.GetConnectionString("MCConnection")));
 

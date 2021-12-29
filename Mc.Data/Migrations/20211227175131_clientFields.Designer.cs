@@ -10,8 +10,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Mc.Data.Migrations
 {
     [DbContext(typeof(MCContext))]
-    [Migration("20211226210509_Inicial")]
-    partial class Inicial
+    [Migration("20211227175131_clientFields")]
+    partial class clientFields
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -28,10 +28,19 @@ namespace Mc.Data.Migrations
                         .HasColumnType("integer")
                         .UseIdentityByDefaultColumn();
 
-                    b.Property<DateTime>("BirthDate")
+                    b.Property<DateTime?>("BirthDate")
                         .HasColumnType("timestamp without time zone");
 
+                    b.Property<string>("CPF")
+                        .HasColumnType("text");
+
+                    b.Property<char?>("Gender")
+                        .HasColumnType("character(1)");
+
                     b.Property<string>("Name")
+                        .HasColumnType("text");
+
+                    b.Property<string>("Tel")
                         .HasColumnType("text");
 
                     b.HasKey("Id");

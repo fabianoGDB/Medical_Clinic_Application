@@ -6,6 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Mc.Core.Domain;
 using Mc.Manager.Interfaces;
+using Mc.Manager.Validator;
 
 namespace Mc.WebApi.Controllers
 {
@@ -30,21 +31,23 @@ namespace Mc.WebApi.Controllers
             return Ok(await clientManager.GetClientAsync(id));
         }
         [HttpPost]
-        public async Task<IActionResult> Post([FromBody] Client client)
+        public async Task<IActionResult> Post([FromBody]Client client)
         {
             var c = await clientManager.InsertClientAsync(client);
-            if(c == null)
+            return CreatedAtAction(nameof(Get), new { id = client.Id }, c);
+           
+        }
+        [HttpPut]
+        public async Task<IActionResult> Put([FromBody]Client client)
+        {
+            var c = await clientManager.UpdateClientAsync(client);
+            if (c == null)
             {
                 return NotFound();
             }
 
             return Ok(c);
-        }
-        [HttpPut("{id}")]
-        public async Task<IActionResult> Put([FromBody] Client client)
-        {
-            var c = await clientManager.UpdateClientAsync(client);
-            return CreatedAtAction("Get", new { id = client.Id }, c);
+
         }
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)

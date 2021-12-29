@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "HvFbu3zDzZLBQYYMCN2A2EK739SpIhUyD611lUwZk6e6tKIpOU1vev5bnAhQ5q/fpmB62cAZQ6opMg0b0hsdGA==",
+  "dgSpecHash": "QTouJSdhVvHBTe68egdWH5IsIgUU0YmPlUi4BXS6W1Nu4KVYbNLvSEjiIInXmi2Ld2OyB1cnEdPqT0Q3RwBlZg==",
   "success": true,
   "projectFilePath": "C:\\Users\\WINSSD\\source\\repos\\Medical_Clinic\\Mc.Manager\\Mc.Manager.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\WINSSD\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",
+    "C:\\Users\\WINSSD\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.3.6\\fluentvalidation.aspnetcore.10.3.6.nupkg.sha512",
+    "C:\\Users\\WINSSD\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.3.6\\fluentvalidation.dependencyinjectionextensions.10.3.6.nupkg.sha512",
+    "C:\\Users\\WINSSD\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+  ],
   "logs": []
 }
